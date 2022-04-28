@@ -17,7 +17,7 @@ yarn build
 ## 项目发布
 ```
 # 发布到 github pages 
-bash deploy_github.sh 
+bash deploy.sh 
 ```
 
 + [网站首页](https://06linux.github.io/06linux_wiki/)

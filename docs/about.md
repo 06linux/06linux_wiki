@@ -1,5 +1,5 @@
 ---
-lang: zh-CN
+sidebar: false
 title: 关于页面
 description: 我的个人简介
 ---

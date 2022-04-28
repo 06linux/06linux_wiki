@@ -1,7 +1,6 @@
 ---
-lang: zh-CN
 title: 测试
-description: 测试页面
+description: 测试页面描述
 ---
 
 
