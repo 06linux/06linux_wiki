@@ -22,7 +22,8 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 发布到 gh-pages 分支 (需要在github 中配置密钥，参考：个人账号--settings--)
+# 发布到 gh-pages 分支 
+# 需要在github 中配置密钥，参考：个人账号--settings--SSH and GPG keys
 git push -f git@github.com:06linux/06linux_wiki.git master:gh-pages
 
 # 如果发布到 https://<USERNAME>.github.io
