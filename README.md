@@ -13,3 +13,10 @@ yarn dev
 # 编译发布
 yarn build
 ```
+
+## 项目发布
+```
+# 发布到 github pages 
+bash deploy_github.sh 
+```
+
