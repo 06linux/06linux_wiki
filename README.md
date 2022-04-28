@@ -20,4 +20,4 @@ yarn build
 bash deploy_github.sh 
 ```
 
-+ [访问地址](https://06linux.github.io/06linux_wiki/)
++ [网站首页](https://06linux.github.io/06linux_wiki/)
