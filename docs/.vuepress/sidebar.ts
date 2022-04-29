@@ -66,31 +66,36 @@ export const sidebar: SidebarConfig = {
   // 功能测试
   '/test/': [
     {
-      text: '测试页面',
+      text: '测试页',
+      link: '/test/',
       // collapsible: true,
-      children: ['/test/test1.md', '/test/test2.md'],
+      children: [
+        '/test/markdown.md',
+        '/test/tips.md',
+        '/test/code.md',
+      ],
     },
 
     // SidebarItem
-    {
-      text: 'Foo',
-      link: '/foo/',
-      children: [
-        // SidebarItem
-        {
-          text: 'github',
-          link: 'https://github.com',
-          children: [],
-        },
-        {
-          text: 'baidu',
-          link: 'https://baidu.com',
-          children: [],
-        },
-      ],
-    },
-    // 字符串 - 页面文件路径
-    '/bar/README.md',
+    // {
+    //   text: 'Foo',
+    //   link: '/foo/',
+    //   children: [
+    //     // SidebarItem
+    //     {
+    //       text: 'github',
+    //       link: 'https://github.com',
+    //       children: [],
+    //     },
+    //     {
+    //       text: 'baidu',
+    //       link: 'https://baidu.com',
+    //       children: [],
+    //     },
+    //   ],
+    // },
+    // // 字符串 - 页面文件路径
+    // '/bar/README.md',
   ],
-  
+
 }

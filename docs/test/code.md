@@ -1,13 +1,7 @@
----
-lang: zh-CN
-title: 测试1
-description: 测试页面
----
 
+# 码块显示
 
-# 测试1
-
-测试页面 test1.md
+代码块显示测试
 
 
 # 代码块
@@ -16,7 +10,6 @@ import { defaultTheme, defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
   title: '你好， VuePress',
-
   theme: defaultTheme({
     logo: 'https://vuejs.org/images/logo.png',
   }),

@@ -1,14 +1,5 @@
----
-lang: zh-CN
-title: 测试2
-description: 测试页面
----
 
-
-# 测试2
-
-测试页面 test2.md
-
+# 提示信息
 
 ::: tip
 这是一个提示
