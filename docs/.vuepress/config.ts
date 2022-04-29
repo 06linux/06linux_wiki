@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
+import { docsearchPlugin } from'@vuepress/plugin-docsearch'
 import { sidebar } from './sidebar'
 import { navbar } from './navbar'
 
@@ -29,4 +30,14 @@ export default defineUserConfig({
     navbar: navbar,
     sidebar: sidebar,
   }),
+
+  plugins: [
+
+    // 配置数据，需要从 https://docsearch.algolia.com/apply/ 申请
+    docsearchPlugin({
+      appId:'xxxx',
+      apiKey: 'xxxx',
+      indexName: '06linux.com'
+    }),
+  ],
 })

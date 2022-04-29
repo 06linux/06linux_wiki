@@ -15,6 +15,8 @@ export const navbar: NavbarConfig = [
         text: '中医',
         link:'/zy/'
     },
+    
+    
     // {
     //     text: '文档',
     //     children: [

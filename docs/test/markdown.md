@@ -101,4 +101,41 @@ git commit
 [表情符号备忘清单](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 ## 表格
-:smile:
+您可以用竖线 | 和横线 - 创建表格。 横线用于创建每列的标题，而竖线用于分隔每列。 必须在表格前包含空白链接，以便其正确呈现。
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+单元格的宽度可以不同，无需在列内准确对齐。 标题行的第一列中必须至少有三个横线。
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
+您可以在表格中使用格式，如链接、内联代码块和文本样式：
+
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
+
+您可以在标头行中横线的左侧、右侧或两侧加入冒号 :，靠左、靠右或居中对齐列中的文本。
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
+要包含竖线 | 作为单元格中的内容，请在竖线前使用 \：
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
+
+
+## 显示目录
+[[toc]]
+
