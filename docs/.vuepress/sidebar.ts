@@ -3,54 +3,94 @@ import { SidebarConfig } from "vuepress";
 // 右侧菜单：
 // 不同子路径下的页面会使用不同的侧边栏
 export const sidebar: SidebarConfig = {
-    '/test/': [
-      {
-        text: '首页',
-        // collapsible: true,
-        children: ['/test/test1.md', '/test/test2.md'],
-      },
-      {
-        text: '测试页面',
-        // collapsible: true,
-        children: ['/test/test1.md', '/test/test2.md'],
-      },
-      {
-        text: '测试页面',
-        collapsible: true,
-        children: ['/testxx/vite.md', '/testxx/webpack.md'],
-      },
 
-      // SidebarItem
-      {
-        text: 'Foo',
-        link: '/foo/',
-        children: [
-          // SidebarItem
-          {
-            text: 'github',
-            link: 'https://github.com',
-            children: [],
-          },
-          {
-            text: 'baidu',
-            link: 'https://baidu.com',
-            children: [],
-          },
-        ],
-      },
-      // 字符串 - 页面文件路径
-      '/bar/README.md',
-    ],
-    '/test2/': [
-      {
-        text: 'VuePress Reference',
-        collapsible: true,
-        children: ['/reference/cli.md', '/reference/config.md'],
-      },
-      {
-        text: 'Bundlers Reference',
-        collapsible: true,
-        children: ['/reference/bundler/vite.md', '/reference/bundler/webpack.md'],
-      },
-    ],
-  }
+  // 技术文档
+  '/doc/': [
+    {
+      text: 'JavaScript',
+      link: '/doc/javascript/',
+      // collapsible: true,
+      children: [
+        '/doc/javascript/lang.md',
+        '/doc/javascript/ref.md',
+      ],
+    },
+    {
+      text: 'Vue',
+      // collapsible: true,
+      link: '/doc/vue/',
+      children: [
+        '/doc/vue/lang.md',
+        '/doc/vue/ref.md',
+      ],
+    },
+  ],
+
+
+  '/think/': [
+    {
+      text: '每日一思',
+      link: '/think/mind/',
+      // collapsible: true,
+      children: [
+        '/think/mind/wuliqiang.md',
+        '/think/mind/zhangyiming.md',
+      ],
+    },
+    {
+      text: '我的日记',
+      link: '/think/log/',
+      collapsible: true,
+      // children: [
+      //   '/think/log/log1.md',
+      //   '/think/log/log2.md',
+      // ],
+    },
+  ],
+
+  '/zy/': [
+    {
+      text: '中医学习',
+      link: '/zy/',
+      // collapsible: true,
+      children: [
+        '/zy/zhenjiu.md',
+        '/zy/bencao.md',
+        '/zy/neijing.md',
+        '/zy/shanghan.md',
+      ],
+    },
+  ],
+
+
+  // 功能测试
+  '/test/': [
+    {
+      text: '测试页面',
+      // collapsible: true,
+      children: ['/test/test1.md', '/test/test2.md'],
+    },
+
+    // SidebarItem
+    {
+      text: 'Foo',
+      link: '/foo/',
+      children: [
+        // SidebarItem
+        {
+          text: 'github',
+          link: 'https://github.com',
+          children: [],
+        },
+        {
+          text: 'baidu',
+          link: 'https://baidu.com',
+          children: [],
+        },
+      ],
+    },
+    // 字符串 - 页面文件路径
+    '/bar/README.md',
+  ],
+  
+}

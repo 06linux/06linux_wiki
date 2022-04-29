@@ -1,19 +1,6 @@
----
-title: 测试
-description: 测试页面描述
----
+# 功能测试
 
-
-# 测试页面
-
-测试页面首页
+功能测试页面，测试一些 vuepress 和 markdown 的使用
 
 ## 您好
-+ 您好，我的第一个页面，后面会慢慢增加
-
-
-## 感谢
-+ 特别感谢 vuepress
-+ 特别感谢 vuepress
-+ 特别感谢 vuepress
-+ 特别感谢 vuepress
++ 您好，这是一个测试页面
