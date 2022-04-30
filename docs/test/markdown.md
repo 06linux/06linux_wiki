@@ -17,7 +17,14 @@
 
 ## 图像
 您可以通过添加 ! 并在[ ]中包装 alt 文本来显示图像。 然后将图像链接包装在括号 () 中。
+
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
+![hero](/images/hero.png)
+![logo](/images/logo.png)
+
 
 ## 列表
 通过在一行或多行文本前面添加 - 或 * 可创建无序列表。

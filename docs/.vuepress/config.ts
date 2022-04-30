@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
+import type { DefaultThemeOptions } from "@vuepress/theme-default";
 import { docsearchPlugin } from'@vuepress/plugin-docsearch'
 import { sidebar } from './sidebar'
 import { navbar } from './navbar'
@@ -10,7 +11,7 @@ import { navbar } from './navbar'
 // 备注：绑定域名，就不用设置 base 路径
 const base = '/';
 
-export default defineUserConfig({
+export default defineUserConfig<DefaultThemeOptions>({
   base: base,
   lang: 'zh-CN',
   title: '06Linux',
@@ -29,6 +30,7 @@ export default defineUserConfig({
     backToHome: "返回首页",
     navbar: navbar,
     sidebar: sidebar,
+
   }),
 
   plugins: [
@@ -39,5 +41,6 @@ export default defineUserConfig({
       apiKey: 'xxxx',
       indexName: '06linux.com'
     }),
+   
   ],
 })

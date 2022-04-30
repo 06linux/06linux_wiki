@@ -7,21 +7,21 @@ export const sidebar: SidebarConfig = {
   // 技术文档
   '/doc/': [
     {
+      text: 'Node',
+      link: '/doc/node/',
+      // collapsible: true,
+      children: [
+        '/doc/node/base.md',
+        '/doc/node/ref.md',
+      ],
+    },
+    {
       text: 'JavaScript',
       link: '/doc/javascript/',
       // collapsible: true,
       children: [
-        '/doc/javascript/lang.md',
+        '/doc/javascript/base.md',
         '/doc/javascript/ref.md',
-      ],
-    },
-    {
-      text: 'Vue',
-      // collapsible: true,
-      link: '/doc/vue/',
-      children: [
-        '/doc/vue/lang.md',
-        '/doc/vue/ref.md',
       ],
     },
   ],
@@ -54,10 +54,11 @@ export const sidebar: SidebarConfig = {
       link: '/zy/',
       // collapsible: true,
       children: [
-        '/zy/zhenjiu.md',
-        '/zy/bencao.md',
-        '/zy/neijing.md',
-        '/zy/shanghan.md',
+        '/zy/经络运行图.md',
+        '/zy/针灸大成.md',
+        '/zy/神农本草.md',
+        '/zy/皇帝内经.md',
+        '/zy/伤寒论.md',
       ],
     },
   ],
