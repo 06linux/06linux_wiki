@@ -22,7 +22,7 @@ title: 我的简介
 + QQ: 605606385
 + 微信：wuliqiang
 + Email: linux_wuliqiang@qq.com
-+ 坐标：河北-邢台 (有邢台的小伙伴看到了，记得找我喝茶，一起唠唠人生！)
++ 坐标：河北-邢台
 + [我的网站](https://06linux.com)
 
 

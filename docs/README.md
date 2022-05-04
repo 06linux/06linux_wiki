@@ -3,7 +3,7 @@ home: true
 title: 首页
 heroImage: /images/hero.png
 heroText: 技术博客
-tagline: 学而不思则罔，思而不学则殆！
+tagline: 路虽远行则至！事虽难做则成！
 description: 页面的描述
 
 actions:
