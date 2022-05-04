@@ -1,0 +1,1 @@
+const i={key:"v-6cd1b34e",path:"/think/mind/wuliqiang.html",title:"\u7ACB\u5F3A",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u6B22\u8FCE",slug:"\u6B22\u8FCE",children:[]}],git:{updatedTime:1651204687e3,contributors:[{name:"06linux",email:"linux_wuliqiang@qq.com",commits:1}]},filePathRelative:"think/mind/wuliqiang.md"};export{i as data};

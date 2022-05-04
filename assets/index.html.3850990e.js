@@ -1,0 +1,1 @@
+const e={key:"v-7445f070",path:"/doc/",title:"\u6280\u672F\u6587\u6863",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u6BCF\u65E5\u4E00\u601D",slug:"\u6BCF\u65E5\u4E00\u601D",children:[]}],git:{updatedTime:1651204687e3,contributors:[{name:"06linux",email:"linux_wuliqiang@qq.com",commits:1}]},filePathRelative:"doc/README.md"};export{e as data};
