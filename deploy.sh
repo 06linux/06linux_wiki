@@ -15,7 +15,7 @@ yarn docs:build
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-echo 'www.06linux.com' > CNAME
+# echo 'www.06linux.com' > CNAME
 
 # 确保脚本抛出遇到的错误
 set -e
